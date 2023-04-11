@@ -14,6 +14,7 @@ def close_storage(exception):
     """Closes the storage engine on app context"""
     storage.close()
 
+
 @app.errorhandler(404)
 def not_found(error):
     """comments"""
