@@ -11,6 +11,7 @@ def status():
     """Returns status: OK"""
     return jsonify({'status': 'OK'})
 
+
 def get_stats():
     """comments"""
     return jsonify(storage.count())
